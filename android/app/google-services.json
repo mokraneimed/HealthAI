@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "972938885291",
+    "project_id": "healthai-c4136",
+    "storage_bucket": "healthai-c4136.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972938885291:android:021f34a694fddcf5d3dfee",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972938885291-2birapg858oohg0s4etnadm2j8crpbuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFlQzNgaVZLe1oQUhI86pZCaoSU8jKn_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972938885291-2birapg858oohg0s4etnadm2j8crpbuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

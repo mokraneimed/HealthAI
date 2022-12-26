@@ -1,0 +1,35 @@
+import 'package:flutter/material.dart';
+
+class LoginPage extends StatefulWidget {
+  const LoginPage({Key? key}) : super(key: key);
+
+  @override
+  State<LoginPage> createState() => _LoginPage();
+}
+
+class _LoginPage extends State<LoginPage> {
+  @override
+  Widget build(BuildContext context) {
+    var height = MediaQuery.of(context).size.height;
+    var width = MediaQuery.of(context).size.width;
+    return Scaffold(
+        resizeToAvoidBottomInset: false,
+        body: Container(
+            width: width,
+            height: height,
+            padding: EdgeInsets.symmetric(vertical: height * 0.08),
+            decoration: const BoxDecoration(
+                gradient: LinearGradient(
+              colors: [
+                Color.fromRGBO(87, 214, 240, 0),
+                Color.fromRGBO(79, 207, 234, 0.3)
+              ],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+            )),
+            child: Column(
+                children: [
+                  Image.asset("assets/images/HealthAI.png"),
+                ])));
+  }
+}

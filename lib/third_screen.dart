@@ -1,16 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/carousel.dart';
 
-class SecondScreen extends StatefulWidget {
-  const SecondScreen({
-    Key? key,
-  }) : super(key: key);
+class ThirdScreen extends StatefulWidget {
+  const ThirdScreen({Key? key}) : super(key: key);
 
   @override
-  State<SecondScreen> createState() => _SecondScreen();
+  State<ThirdScreen> createState() => _ThirdScreen();
 }
 
-class _SecondScreen extends State<SecondScreen> {
+class _ThirdScreen extends State<ThirdScreen> {
   List<Widget> indicators(currentIndex) {
     return List<Widget>.generate(3, (index) {
       return Container(
@@ -56,7 +54,7 @@ class _SecondScreen extends State<SecondScreen> {
                   SizedBox(
                     height: height * 0.03,
                   ),
-                  Image.asset("assets/images/radio.png"),
+                  Image.asset("assets/images/second.png"),
                   SizedBox(
                     height: height * 0.03,
                   ),
@@ -78,7 +76,7 @@ class _SecondScreen extends State<SecondScreen> {
                           width: width * 0.07,
                         ),
                         const Text(
-                          "Real Time",
+                          "Ensure Continuous",
                           style: TextStyle(
                               fontSize: 32,
                               fontWeight: FontWeight.w300,
@@ -96,7 +94,7 @@ class _SecondScreen extends State<SecondScreen> {
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
                         const Text(
-                          "Monitoring System",
+                          "Communication",
                           style: TextStyle(
                               fontSize: 32,
                               fontWeight: FontWeight.w300,
@@ -111,7 +109,7 @@ class _SecondScreen extends State<SecondScreen> {
                         ),
                       ],
                     ),
-                  ),
+                  )
                 ],
               ),
             ),
